@@ -5,6 +5,8 @@ An Obj-C API for Searching and Downloading Subtitles from OpenSubtitles. Current
 
 [OpenSubtitles Documentation](http://trac.opensubtitles.org/projects/opensubtitles/wiki/XmlRpcIntro)
 
+This is fork of original repository, which adds just a couple useful fields to OpenSubtitleSearchResult.
+
 ```
 @interface OROpenSubtitleDownloader : NSObject <XMLRPCConnectionDelegate>
 

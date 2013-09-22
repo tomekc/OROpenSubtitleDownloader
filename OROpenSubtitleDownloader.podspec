@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
   s.name         = "OROpenSubtitleDownloader"
   s.version      = "0.2.1"
   s.summary      = "An Obj-C API for Searching and Downloading Subtitles from OpenSubtitles."
-  s.homepage     = "https://github.com/orta/OROpenSubtitleDownloader"
+  s.homepage     = "https://github.com/tomekc/OROpenSubtitleDownloader"
   s.license      = { :type => 'BSD', :file => 'LICENSE' }
   s.author       = { "orta" => "orta.therox@gmail.com", "tomekc" => "tomek@japko.info" }
   s.source       = { :git => "https://github.com/tomekc/OROpenSubtitleDownloader.git", :tag => '0.2.1' }
