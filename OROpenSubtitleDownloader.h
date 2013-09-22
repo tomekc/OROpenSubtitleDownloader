@@ -53,5 +53,12 @@ typedef enum {
 @property (copy) NSString *subtitleLanguage;
 @property (copy) NSString *iso639Language;
 @property (copy) NSString *subtitleDownloadAddress;
+@property (copy) NSString *format;
+@property (copy) NSString *addDate;
+@property (copy) NSString *movieReleaseName;
+@property (copy) NSString *movieFPS;
+@property (copy) NSString *downloadCount;
+@property (copy) NSString *languageName;
+
 
 @end

@@ -230,6 +230,12 @@ static NSString *OROpenSubtitlePath = @"xml-rpc";
     object.subtitleLanguage = dictionary[@"SubLanguageID"];
     object.iso639Language = dictionary[@"ISO639"];
     object.subtitleDownloadAddress = dictionary[@"SubDownloadLink"];
+    object.format = dictionary[@"SubFormat"];
+    object.addDate = dictionary[@"SubAddDate"];
+    object.movieReleaseName = dictionary[@"MovieReleaseName"];
+    object.movieFPS = dictionary[@"MovieFPS"];
+    object.downloadCount = dictionary[@"SubDownloadsCnt"];
+    object.languageName = dictionary[@"LanguageName"];
 
     return object;
 }
